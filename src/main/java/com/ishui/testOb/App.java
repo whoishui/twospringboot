@@ -13,5 +13,6 @@ public class App {
         t.addObserver(s1);
         t.addObserver(s2);
         t.say();
+        System.out.println("我这里增加了一行");
     }
 }
