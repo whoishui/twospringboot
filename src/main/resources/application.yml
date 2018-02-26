@@ -1,0 +1,16 @@
+server:
+  port: 8080
+height: 32
+person:
+  name: 王五
+  age: 43
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/dbgirl?useSSL=false
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
